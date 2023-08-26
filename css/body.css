@@ -1,0 +1,12 @@
+.body {
+    text-align: center;
+}
+
+
+.body_header {
+    background-color: hsl(117, 92%, 25%);
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,37 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.table__caption {
+    text-align: center;
+    caption-side: top;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.table__cell {
+    border: 1px solid #bba7a7;
+    padding: 10px;
+    taxt-align: center;
+    margin: 20px;
+}
+
+.table__cell--background {
+    background-color: hsl(196, 37%, 49%);
+}
+
+.table__row:hover {
+    background-color: aqua;
+}
+
+.table__header {
+    background-color: rgb(160, 53, 78);
+    color: white;
+}
+
+.table__cell--left{
+    text-align: left;
+}

@@ -1,0 +1,13 @@
+.article {
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+.article__header {
+    color: rgb(45, 45, 155);
+    margin-top: 50 px;
+}
+
+.article__text--hidden {
+    color: hsl(77, 19%, 93%)
+}

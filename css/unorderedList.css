@@ -1,0 +1,12 @@
+.unorderedList {
+    list-style-type: square;
+    padding-left: 60px;
+    border: 2px solid #85a409;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.unorderedList__item {
+    margin: 10px;
+}
+

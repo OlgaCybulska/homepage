@@ -1,0 +1,9 @@
+.js-footer {
+    background-color: rgb(23, 209, 147);
+    max-width: 1000px;
+    text-align: center;
+}
+.js-footer--background {
+    background-color: crimson;
+    color: white
+}
