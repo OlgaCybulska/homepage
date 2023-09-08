@@ -9,5 +9,10 @@ I give private lessons.
 I added a lesson price list to the website.
 
 ![Price list-private lessons](https://olgacybulska.github.io/homepage/images/price-list.png)  
-##DEMO  
+
+## Technologies used to make the page:
+- HTLM
+- CSS
+- JavaScript  
+## DEMO  
 https://olgacybulska.github.io/homepage/
