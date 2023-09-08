@@ -1,12 +1,14 @@
 
+{
+    const onChangeBackground = () => {
+        kontakt.classList.toggle("js-footer--background");
+        themeName.innerText = kontakt.classList.contains("js-footer--background") ? "Nie" : "Tak";
+    }
 
-let button = document.querySelector(".js-button");
-let kontakt = document.querySelector(".js-footer");
-let themeName = document.querySelector(".js-themeName")
 
+    const button = document.querySelector(".js-button");
+    const kontakt = document.querySelector(".js-footer");
+    const themeName = document.querySelector(".js-themeName")
 
-button.addEventListener("click", () => {
-    kontakt.classList.toggle("js-footer--background");
-    themeName.innerText = kontakt.classList.contains("js-footer--background") ? "Nie" : "Tak"
-});
-
+    button.addEventListener("click", onChangeBackground);
+}
